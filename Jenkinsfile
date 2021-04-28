@@ -3,12 +3,12 @@ pipeline {
     stages {
         stage('job2') { 
             steps {
-              build "job2"
+              build 'job2'
             }
         }
         stage('pipeline-job') { 
             steps {
-                build "pipeline-job"
+                build 'pipeline-job'
             }
         }
     }
